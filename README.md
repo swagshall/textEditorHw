@@ -36,3 +36,4 @@
 
   ## Images 
   <img src=".\img\jateTextEditorHw.png" alt="screenshot 1">
+  <img src=".\img\jateTextEditorHw2.png" alt="screenshot 2">
