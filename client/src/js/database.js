@@ -1,5 +1,6 @@
 import { openDB } from 'idb';
 
+//initailize the database 
 const initdb = async () =>
   openDB('jate', 1, {
     upgrade(db) {
@@ -16,7 +17,7 @@ const initdb = async () =>
 export const putDb = async (content) => {
 console.log('Post to the database');
 
-//create a connection to the dd
+//create a connection to the db
 const jateDb=await openDB ('jate',1);
 
  // Create a new transaction and specify the db and data privileges.

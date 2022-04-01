@@ -20,7 +20,7 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      // Webpack plugin
+      // HTML Webpack plugin
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'jate'
